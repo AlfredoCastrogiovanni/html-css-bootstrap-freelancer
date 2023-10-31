@@ -1,3 +1,6 @@
+.text-green {
+    color: rgb(26, 188, 156);
+}
 header {
     height: 80px;
     background-color: rgb(44, 62, 80);
@@ -6,4 +9,16 @@ header {
 main #hero {
     height: 500px;
     background-color: rgb(26, 188, 156);
+}
+
+main #about {
+    background-color: rgb(26, 188, 156);
+}
+
+footer .upper-footer {
+    background-color: rgb(58, 84, 109);
+}
+
+footer .bottom-footer {
+    background-color: rgb(44, 62, 80);
 }
