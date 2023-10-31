@@ -1,11 +1,19 @@
+/* General classes */
 .text-green {
     color: rgb(26, 188, 156);
 }
+
+.text-grey {
+    color: rgb(136, 136, 136);
+}
+
+/* Header */
 header {
     height: 80px;
     background-color: rgb(44, 62, 80);
 }
 
+/* Main */
 main #hero {
     height: 500px;
     background-color: rgb(26, 188, 156);
@@ -15,6 +23,7 @@ main #about {
     background-color: rgb(26, 188, 156);
 }
 
+/* Footer */
 footer .upper-footer {
     background-color: rgb(58, 84, 109);
 }
