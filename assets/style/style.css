@@ -33,6 +33,11 @@ body {
     background-color: rgb(44, 62, 80);
 }
 
+.my_button {
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
 /* Header */
 header {
     background-color: rgb(44, 62, 80);
@@ -55,12 +60,30 @@ main #about {
     background-color: rgb(26, 188, 156);
 }
 
+main #contact .my_input {
+    border-width: 0 0 1px 0;
+    border-color: rgb(204, 204, 204);
+    border-radius: 0;
+}
+
+main #contact .my_input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(26, 188, 156,0.3)!important;
+}
+
+main #contact .my_label {
+    color: rgb(58, 84, 109);
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
 /* Footer */
 footer .upper-footer {
     background-color: rgb(58, 84, 109);
 }
 
-.my_circle {
+footer .my_circle {
     width: 50px;
     height: 50px;
     line-height: 50px;
