@@ -1,4 +1,8 @@
 /* General classes */
+body {
+    min-width: 370px;
+}
+
 .text-green {
     color: rgb(26, 188, 156);
 }
@@ -6,6 +10,17 @@
 .text-grey {
     color: rgb(136, 136, 136);
 }
+
+.bar {
+    width: 35%;
+    height: 3px;
+
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+
 
 /* Header */
 header {
@@ -16,6 +31,20 @@ header {
 main #hero {
     height: 500px;
     background-color: rgb(26, 188, 156);
+}
+
+main #hero .my_profile {
+    height: 300px;
+}
+
+main #hero .my_star {
+    width: 30px;
+    display: inline-block;
+}
+
+main #hero .fa-star {
+    position: relative;
+    top: 6px;
 }
 
 main #about {
