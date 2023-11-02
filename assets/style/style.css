@@ -17,10 +17,21 @@ body {
 
     background-color: white;
     border-radius: 25px;
-
 }
 
+.my_star {
+    width: 30px;
+    display: inline-block;
+}
 
+.fa-star {
+    position: relative;
+    top: 6px;
+}
+
+.my_bg-grey {
+    background-color: rgb(44, 62, 80);
+}
 
 /* Header */
 header {
@@ -29,7 +40,6 @@ header {
 
 /* Main */
 main #hero {
-    height: 500px;
     background-color: rgb(26, 188, 156);
 }
 
@@ -37,14 +47,8 @@ main #hero .my_profile {
     height: 300px;
 }
 
-main #hero .my_star {
-    width: 30px;
-    display: inline-block;
-}
-
-main #hero .fa-star {
-    position: relative;
-    top: 6px;
+main #portfolio .bar {
+    background-color: black;
 }
 
 main #about {
@@ -54,6 +58,12 @@ main #about {
 /* Footer */
 footer .upper-footer {
     background-color: rgb(58, 84, 109);
+}
+
+.my_circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
 }
 
 footer .bottom-footer {
